@@ -18,6 +18,10 @@ tasks.test {
     useJUnitPlatform()
 }
 
+kotlin {
+    jvmToolchain(21)
+}
+
 ktlint {
     version.set("1.3.1")
 }
